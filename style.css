@@ -1,0 +1,77 @@
+/* Page background */
+body {
+    background-color: #f4f7fc;
+    font-family: Arial, sans-serif;
+}
+
+/* Task Manager card */
+.card {
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+/* Main heading */
+h2 {
+    color: #212529;
+    font-weight: bold;
+}
+
+/* Description */
+.text-muted {
+    color: #6c757d;
+}
+
+/* Task input */
+#taskInput {
+    padding: 12px;
+    border-radius: 8px 0 0 8px;
+}
+
+/* Add Task button */
+#addBtn {
+    padding: 12px 20px;
+}
+
+/* Task counter */
+#taskCounter {
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+/* Filter buttons */
+.filter-btn {
+    padding: 10px;
+}
+
+/* Task list */
+#taskList {
+    margin-top: 10px;
+}
+
+/* Each task */
+#taskList li {
+    padding: 12px;
+}
+
+/* Completed task */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Clear Completed button */
+#clearBtn {
+    border-radius: 6px;
+}
+
+/* Small screen adjustments */
+@media (max-width: 576px) {
+    .card {
+        padding: 20px !important;
+    }
+
+    #addBtn {
+        padding: 10px;
+    }
+}
